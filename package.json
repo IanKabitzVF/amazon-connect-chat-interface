@@ -1,5 +1,5 @@
 {
-  "name": "@amzn/connect-chat-interface",
+  "name": "amazon-connect-chat-interface",
   "version": "1.0.0",
   "homepage": "https://github.com/amazon-connect/amazon-connect-chat-interface",
   "author": "Amazon Web Services",
@@ -194,6 +194,21 @@
     "webpack-dev-server": "^4.1.1",
     "webpack-manifest-plugin": "2.0.4"
   },
+  "files": [
+    "package.json",
+    "package-lock.json",
+    "README.md",
+    "LICENSE",
+    "src/**/*",
+    "build/**/*",
+    "configuration/**/*",
+    "scripts/**/*",
+    "local-testing/**/*",
+    ".babelrc",
+    ".eslintrc",
+    "jsconfig.json",
+    "global-setup.js"
+  ],
   "overrides": {
     "glob-parent": "^5.1.2",
     "css-loader": {
